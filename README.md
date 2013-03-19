@@ -17,7 +17,7 @@ Development and config
 ======
 
 As it the first and little buggy version, some configs are inplace and hardcoded. I know... Do not bothering me.
-For now gameplay turned on for USA cities. With easy modification it can be changed a well.
+For now gameplay turned on for USA cities. With easy modification it can be changed as well.
  
 Future
 =====
