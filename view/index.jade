@@ -1,0 +1,39 @@
+
+!!! 5
+
+include includes/header
+block append csss
+    link(rel='stylesheet', href='/asset/css/index.css')
+
+block append scripts
+    script(src='./asset/js/index.js')
+
+body.container
+    h1  Simple game
+
+    div.row
+        div.progress.progress-striped.active.span12
+            div.bar
+
+        div.span3
+            h3 Fileld
+            ul#playfield.unstyled.panel
+
+            form#city.inline-form
+                div.input-append
+                    input.span3(type='text')
+                    button.btn Send
+
+
+        div#info.span3
+            h3 Info
+            div.panel
+
+        div#playstate.span3
+            h3 Play board
+            div.panel
+
+        div#gamers.span3
+            h3 Gamers
+            ul.unstyled.panel
+            button#startplaybtn.btn.btn-default Play!

@@ -1,0 +1,25 @@
+{
+  "name": "Cities",
+  "version": "0.0.1",
+  "description": "Simple cities game",
+  "main": "server.js",
+  "dependencies": {
+      "jade": "~0.28.2",
+      "geode": "~0.0.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib": "~0.5.0"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": "",
+  "keywords": [
+    "game",
+    "cities"
+  ],
+  "author": "Serge Balykov aka ua9msn",
+  "license": "BSD"
+}

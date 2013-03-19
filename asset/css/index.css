@@ -1,0 +1,23 @@
+/*
+ *  Custom CSS
+ *  LESS or SASS is not required for this small project
+ *
+ */
+
+
+.panel {
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    min-height: 210px;
+    padding: 1em;
+}
+
+#playfield li.notvalid {
+    text-decoration: line-through;
+    color: red;
+}
+
+
