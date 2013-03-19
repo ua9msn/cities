@@ -4,6 +4,7 @@
   "description": "Simple cities game",
   "main": "server.js",
   "dependencies": {
+      "socket.io":"~0.9",
       "jade": "~0.28.2",
       "geode": "~0.0.2"
   },
